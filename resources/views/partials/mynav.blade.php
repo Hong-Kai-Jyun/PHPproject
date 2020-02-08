@@ -21,7 +21,7 @@
 
     <div class="nav navbar-default col-sm-auto">
     <li><a data-toggle="tab" href="#menu2">首頁</a></li>
-	</div>
+	 </div>
 	
     <tr class="nav navbar-nav navbar-right nav-tabs">
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">我的訂單</a>

@@ -8,7 +8,6 @@
 
 
         <div class="nav navbar-default col-sm-auto">
-          <ul class="navbar-nav ml-auto">
             <li   data-toggle="tab">
             <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
             </li>
@@ -20,8 +19,6 @@
             <li   data-toggle="tab">
             <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
             </li>
-
-          </ul>
          </div>
 
         
