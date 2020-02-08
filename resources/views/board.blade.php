@@ -4,9 +4,10 @@
   <div class="row justify-content-center">
     <div class="col-md-10">
       <div class="card">
-        <div class="card-header">客戶列表
+        <div class="card-header">客戶列表</div>
 
-         <div class="nav navbar-default col-sm-auto">
+
+        <div class="nav navbar-default col-sm-auto">
           <ul class="navbar-nav ml-auto">
             <li  class="dropdown">
             <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
@@ -23,7 +24,8 @@
           </ul>
          </div>
 
-        </div>
+        
+
         <div class="card-body p-1">
           <table class="table table-hover m-0">
             <thead class="thead-darty">
