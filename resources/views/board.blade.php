@@ -4,25 +4,25 @@
   <div class="row justify-content-center">
     <div class="col-md-10">
       <div class="card">
-        <div class="card-header">客戶列表</div>
+        <div class="card-header">客戶列表
 
+         <div class="nav navbar-default col-sm-auto">
 
-        <div class="nav navbar-default col-sm-auto">
-            <li   data-toggle="tab">
+            <li>
             <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
             </li>
 
-            <li   data-toggle="tab">
+            <li>
             <a href="{{ action('CustomerController@index') }}" class="nav-link">修改</a>
             </li>
 
-            <li   data-toggle="tab">
+            <li>
             <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
             </li>
+
          </div>
 
-        
-
+        </div>
         <div class="card-body p-1">
           <table class="table table-hover m-0">
             <thead class="thead-darty">
