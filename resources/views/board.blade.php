@@ -8,15 +8,15 @@
 
          <div class="nav navbar-default col-sm-auto">
           <ul class="navbar-nav ml-auto">
-            <li>
+            <li  class="dropdown">
             <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
             </li>
 
-            <li>
+            <li  class="dropdown">
             <a href="{{ action('CustomerController@index') }}" class="nav-link">修改</a>
             </li>
 
-            <li>
+            <li  class="dropdown">
             <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
             </li>
 
