@@ -5,21 +5,24 @@
     <div class="col-md-10">
       <div class="card">
         <div class="card-header">客戶列表
+
          <div class="nav navbar-default col-sm-auto">
           <ul class="navbar-nav ml-auto">
-            <li class="nav-item active">
-            <a href="{{ action('CustomerController@index') }}" class="nav-link">
-              新增
-            </a>
-            <a href="{{ action('CustomerController@index') }}" class="nav-link">
-              修改
-            </a>
-            <a href="{{ action('CustomerController@index') }}" class="nav-link">
-              刪除
-            </a>
+            <li>
+            <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
             </li>
+
+            <li>
+            <a href="{{ action('CustomerController@index') }}" class="nav-link">修改</a>
+            </li>
+
+            <li>
+            <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
+            </li>
+
           </ul>
-         </div> 
+         </div>
+
         </div>
         <div class="card-body p-1">
           <table class="table table-hover m-0">
