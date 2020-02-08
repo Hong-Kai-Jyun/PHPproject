@@ -4,9 +4,13 @@
   <div class="row justify-content-center">
     <div class="col-md-10">
       <div class="card">
-        <div class="card-header">客戶列表
+        <div class="card-header">
 
          <div class="nav navbar-default col-sm-auto">
+         
+            <li>
+            客戶列表
+            </li>
 
             <li>
             <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
