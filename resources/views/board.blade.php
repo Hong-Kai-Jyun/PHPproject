@@ -14,13 +14,15 @@
                 <th>客戶電話</th>
               </tr>
             </thead>
-            <tbody>
-              <tr>
-                <td>A001</td>
-                <td>王小明</td>
-                <td>0912345678</td>
-              </tr>
-            </tbody>
+          <?php
+            foreach ($customers as $customer){
+          ?>
+            <tr>
+                  <td><?php echo $customer->Cusid; ?></td>
+                  <td><?php echo $customer->Name; ?></td>
+              <td><?php echo $customer->Phone; ?></td>
+            </tr>
+            <?php }  ?>
           </table>
         </div>  
       </div>
