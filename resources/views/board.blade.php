@@ -6,23 +6,23 @@
       <div class="card">
 
 
-      <div class="nav navbar-default col-sm-auto">
+        <div class="nav navbar-default col-sm-auto">
 
-<li>
-<a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
-</li>
+          <li>
+          <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
+          </li>
 
-<li>
-<a href="{{ action('CustomerController@index') }}" class="nav-link">修改</a>
-</li>
+          <li>
+          <a href="{{ action('CustomerController@index') }}" class="nav-link">修改</a>
+          </li>
 
-<li>
-<a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
-</li>
+          <li>
+          <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
+          </li>
 
-</div>
+        </div>
 
-        <div class="card-header">客戶列表</div>
+        <div class="card-header"><h1>客戶列表</h1></div>
         <div class="card-body p-1">
           <table class="table table-hover m-0">
             <thead class="thead-darty">
