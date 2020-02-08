@@ -62,8 +62,12 @@
                 margin-bottom: 30px;
             }
         </style>
+  @section('head')
+    @include('partials.head')
+  @show
     </head>
     <body>
+@include('partials.nav')
         <div class="flex-center position-ref full-height">
             @if (Route::has('login'))
                 <div class="top-right links">
@@ -96,5 +100,8 @@
                 </div>
             </div>
         </div>
+  @section('foot')
+    @include('partials.foot')
+  @show
     </body>
 </html>
