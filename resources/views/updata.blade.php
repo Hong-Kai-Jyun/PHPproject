@@ -7,9 +7,9 @@
                 foreach ($customers as $customer){
                 ?>
                <tr>
-                  <td><?php echo $customer->id; ?></td>
-                  <td><?php echo $customer->Name; ?></td>
-                  <td><?php echo $customer->Phone; ?></td>
+                  <td><input type="text"  value="<?php echo $customer->id; ?>"></td>
+                  <td><input type="text"  value="<?php echo $customer->Name; ?>"></td>
+                  <td><input type="text"  value="<?php echo $customer->Phone; ?>"></td>
                 </td>
 
                </tr>
