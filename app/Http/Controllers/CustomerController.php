@@ -17,7 +17,7 @@ class CustomerController extends Controller
        return View::make('board',['customers' => $customers]);
     }
 
-    public function add_coustomers(){
+    public function addcoustomers(){
 
         echo "id:".$_POST['id']."</br>";
         echo "cu_name:".$_POST['cu_name']."</br>";
