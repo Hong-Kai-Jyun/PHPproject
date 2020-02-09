@@ -37,9 +37,9 @@
                   <td><?php echo $customer->Phone; ?></td>
 
                 <td>
-                 <form action="{{ 'CustomerController@query' }}" method="post"> 
+                 <form action="{{ action('CustomerController@query') }}" method="post"> 
                  <input type="hidden" name="updata" value='<?php echo $customer->id; ?>'>
-                 <button>修改</button>
+                 <button  type="submit" name="send" value="送出表單">修改</button>
                 </form>
                 </td>
 
