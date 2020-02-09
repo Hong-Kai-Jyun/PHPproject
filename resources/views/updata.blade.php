@@ -16,7 +16,7 @@
               </tr>
             </thead>
 
-              <form action = 'update_2' method="POST">
+              <form action = 'updata_2' method="POST">
                 {{ csrf_field() }}
                 <?php  
                  foreach ($customers as $customer){
