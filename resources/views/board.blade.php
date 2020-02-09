@@ -45,7 +45,7 @@
 
                  <td>
                   <li class="nav-item active">
-                  <a href="{{ action('CustomerController@index') }}" class="nav-link"></a>
+                  <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
                   </li>
                 </td>
 
