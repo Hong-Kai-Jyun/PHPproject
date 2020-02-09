@@ -44,9 +44,11 @@
                 </td>
 
                  <td>
+                 <ul class="navbar-nav ml-auto mt-2 mt-lg-0">
                   <li class="nav-item active">
                   <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
                   </li>
+                 <ul>
                 </td>
 
                </tr>
