@@ -21,7 +21,7 @@
           <table class="table table-hover m-0">
             <thead class="thead-darty">
               <tr>
-                <th>客戶編號</th>
+                <th>客戶VIP編號</th>
                 <th>客戶姓名</th>
                 <th>客戶電話</th>
               </tr>

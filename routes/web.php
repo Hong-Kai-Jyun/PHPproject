@@ -23,5 +23,6 @@ Route::resource('customer','CustomerController');
 
 Route::resource('cars','CarsController');
 Route::post('updata','CustomerController@query');
+Route::post('updata_2','CustomerController@updata');
 
 Route::resource('mysystem_index','mySystemController');
