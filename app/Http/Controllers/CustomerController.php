@@ -9,8 +9,8 @@ use Route;
 use View;
 use App\Customer;
 
-$post = new Customer;
-$post = Customer::find(1);
+$post = new App\Customer;
+$post = App\Customer::find(1);
 class CustomerController extends Controller
 {
     public function index(){
