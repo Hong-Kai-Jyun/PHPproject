@@ -9,16 +9,10 @@
         <div class="nav navbar-default col-sm-auto">
 
           <li>
-          <a href="{{ action('CustomerController@index') }}" class="nav-link">新增</a>
+          <a href="{{ action('CustomerController@index') }}" class="nav-link">新增客戶</a>
           </li>
 
-          <li>
-          <a href="{{ action('CustomerController@index') }}" class="nav-link">修改</a>
-          </li>
 
-          <li>
-          <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
-          </li>
 
         </div>
 
@@ -32,15 +26,28 @@
                 <th>客戶電話</th>
               </tr>
             </thead>
-          <?php
-            foreach ($customers as $customer){
-          ?>
-            <tr>
+
+            <form action="{{ url(/login) }}" method="post">
+                <?php  {{ csrf_field() }}  
+                foreach ($customers as $customer){
+                ?>
+               <tr>
                   <td><?php echo $customer->Cusid; ?></td>
                   <td><?php echo $customer->Name; ?></td>
-              <td><?php echo $customer->Phone; ?></td>
-            </tr>
-            <?php }  ?>
+                  <td><?php echo $customer->Phone; ?></td>
+
+                <li>
+                 <button value='<?php echo $customer->Cusid; ?>'><a href="{{ action('CustomerController@index') }}">修改</a></button>
+                </li>
+
+                <li>
+                 <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
+                </li>
+
+               </tr>
+              <?php }  ?>
+            </form>
+
           </table>
         </div>  
       </div>
