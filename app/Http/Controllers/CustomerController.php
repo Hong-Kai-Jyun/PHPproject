@@ -14,4 +14,10 @@ class CustomerController extends Controller
        $customers = Customer::all();
        return View::make('board',['customers' => $customers]);
     }
+
+    public function query(){
+       $id = $_POST['updata'];
+       $customers = DB::select('select * from customers where $id ');
+       return View::make('updata',['customers' => $customers]);
+    } 
 }
