@@ -9,7 +9,7 @@
         <div class="nav navbar-default col-sm-auto">
 
           <li>
-          <a href="{{ action('CustomerController@index') }}" class="nav-link">新增客戶</a>
+          <button><a href="{{ action('CustomerController@index') }}" class="nav-link">新增客戶</a><button>
           </li>
 
 
@@ -39,14 +39,14 @@
                 <td>
                  <!-- <form action="" method="post"> -->
                  <input type="hidden" name="updata" value='<?php echo $customer->Cusid; ?>'>
-                 <button value='修改'></button>
+                 <button>修改</button>
                 </form>
                 </td>
 
                  <td>
-                   
+                  <li>
                  <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
-                 
+                </li>
                 </td>
 
                </tr>
