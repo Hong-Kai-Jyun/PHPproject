@@ -37,8 +37,8 @@
                   <td><?php echo $customer->Phone; ?></td>
 
                 <td>
-                 <!-- <form action="" method="post"> -->
-                 <input type="hidden" name="updata" value='<?php echo $customer->Cusid; ?>'>
+                 <!-- <form action="" method="post"> 
+                 <input type="hidden" name="updata" value='<?php echo $customer->Cusid; ?>'>-->
                  <button>修改</button>
                 </form>
                 </td>
@@ -48,7 +48,7 @@
                   <li class="nav-item active">
                   <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
                   </li>
-                 <ul>
+                 <ul >
                 </td>
 
                </tr>
