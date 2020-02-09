@@ -29,6 +29,10 @@ class CustomerController extends Controller
     //更新的動作
     public function updata(){
         $post = Customer::find(1);
+        echo "post:".$post."</br>";
+        echo "id:".$_POST['id']."</br>";
+        echo "name:".$_POST['name']."</br>";
+        echo "phone:".$_POST['phone']."</br>";
         $post->id = $_POST['id'];
         $post->Name = $_POST['name'];
         $post->Phone = $_POST['phone'];
