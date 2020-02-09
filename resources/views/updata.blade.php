@@ -26,7 +26,7 @@
                    <td><input type="text" name="id"  value="<?php echo $customer->id; ?>"></td>
                    <td><input type="text" name="Name"  value="<?php echo $customer->Name; ?>"></td>
                    <td><input type="text" name="Phone"  value="<?php echo $customer->Phone; ?>"></td>
-                   <button  type="submit" name="send" value="送出表單">修改</button>
+                   <td><button  type="submit" name="send" value="送出表單">修改</button></td>
                 </form>
                 </tr>
                <?php }  ?>
