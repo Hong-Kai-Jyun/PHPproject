@@ -22,6 +22,6 @@ Route::get('hello','Hello\DemoController@index');
 Route::resource('customer','CustomerController');
 
 Route::resource('cars','CarsController');
-Route::post('updata','CustomerController');
+Route::post('updata','CustomerController@updata');
 
 Route::resource('mysystem_index','mySystemController');
