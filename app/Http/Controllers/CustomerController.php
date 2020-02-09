@@ -15,6 +15,7 @@ class CustomerController extends Controller
        return View::make('board',['customers' => $customers]);
     }
 
+    //更新前取出特定資料的查詢
     public function query(){
     //   echo "id:".$_POST['id']."</br>";
        $id = $_POST['id'];
@@ -22,4 +23,10 @@ class CustomerController extends Controller
      //  echo "select * from customers where '{$id}' "; 
        return View::make('updata',['customers' => $customers]);
     } 
+
+    //更新的動作
+    public function update(){
+
+        
+    }
 }
