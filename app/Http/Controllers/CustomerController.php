@@ -8,9 +8,6 @@ use App\Http\Controllers\Controller;
 use Route;
 use View;
 use App\Customer;
-
-$post = new App\Customer;
-$post = App\Customer::find(1);
 class CustomerController extends Controller
 {
     public function index(){
@@ -29,7 +26,8 @@ class CustomerController extends Controller
 
     //更新的動作
     public function updata(){
-
+        $post = new App\Customer;
+        $post = App\Customer::find(1);
         $post->id = $_POST['id'];
         $post->Name = $_POST['name'];
         $post->Phone = $_POST['phone'];
