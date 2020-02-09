@@ -38,6 +38,7 @@
 
                 <td>
                  <form action="updata" method="post"> 
+                 {{ csrf_field() }}
                  <input type="hidden" name="updata" value='<?php echo $customer->id; ?>'>
                  <button  type="submit" name="send" value="送出表單">修改</button>
                 </form>
