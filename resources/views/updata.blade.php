@@ -24,7 +24,7 @@
                  
                 <tr>
                    <td><input type="text" name="id"  value="<?php echo $customer->id; ?>"></td>
-                   <td><input type="text" name="name"  value="<?php echo $customer->name; ?>"></td>
+                   <td><input type="text" name="cu_name"  value="<?php echo $customer->name; ?>"></td>
                    <td><input type="text" name="phone"  value="<?php echo $customer->phone; ?>"></td>
                    <td><button  type="submit" name="send" value="送出表單">修改</button></td>
                 </form>

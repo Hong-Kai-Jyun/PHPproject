@@ -31,10 +31,10 @@ class CustomerController extends Controller
         $post = Customer::find(1);
         echo "post:".$post."</br>";
         echo "id:".$_POST['id']."</br>";
-        echo "name:".$_POST['name']."</br>";
+        echo "name:".$_POST['cu_name']."</br>";
         echo "phone:".$_POST['phone']."</br>";
         $post->id = $_POST['id'];
-        $post->Name = $_POST['name'];
+        $post->Name = $_POST['cu_name'];
         $post->Phone = $_POST['phone'];
         $post->save();
         return view('board');
