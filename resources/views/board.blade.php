@@ -27,7 +27,7 @@
               </tr>
             </thead>
 
-{{ csrf_field() }}  
+
                 <?php  
                 foreach ($customers as $customer){
                 ?>
