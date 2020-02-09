@@ -9,7 +9,7 @@
         <div class="nav navbar-default col-sm-auto">
 
           <li class="nav-item active">
-          <button><a href="{{ action('CustomerController@index') }}" class="nav-link">新增客戶</a></button>
+          <button><a href="{{ action('CustomerController@add_coustomers') }}" class="nav-link">新增客戶</a></button>
           </li>
 
 
