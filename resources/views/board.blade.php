@@ -27,26 +27,31 @@
               </tr>
             </thead>
 
-<!-- <form action="" method="post"> -->{{ csrf_field() }}  
+{{ csrf_field() }}  
                 <?php  
                 foreach ($customers as $customer){
                 ?>
                <tr>
-                  <td><?php echo $customer->Cusid; ?></td>
+                  <td><?php echo $customer->id; ?></td>
                   <td><?php echo $customer->Name; ?></td>
                   <td><?php echo $customer->Phone; ?></td>
 
                 <td>
-                 <button value='<?php echo $customer->Cusid; ?>'><a href="{{ action('CustomerController@index') }}">修改</a></button>
+                 <!-- <form action="" method="post"> -->
+                 <input type="hidden" name="updata" value='<?php echo $customer->Cusid; ?>'>
+                 <button value='修改'></button>
+                </form>
                 </td>
 
                  <td>
+                   
                  <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
+                 
                 </td>
 
                </tr>
               <?php }  ?>
-            </form>
+            
 
           </table>
         </div>  

@@ -27,8 +27,8 @@
       <li class="dropdown"><a class="dropdown-toggle" data-toggle="dropdown">我的訂單</a>
         <ul class="dropdown-menu">
            <li><a href="mysystem_index">新增訂單</a></li>
-           <li><a href="#">未結訂單清單</a></li>
-           <li><a href="#">訂單查詢</a></li>
+           <li><a href="unover_myorder">未結訂單清單</a></li>
+           <li><a href="query_myorder">訂單查詢</a></li>
         </ul>
       </li>
 	  
