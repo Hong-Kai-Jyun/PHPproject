@@ -16,8 +16,8 @@ class CustomerController extends Controller
     }
 
     public function query(){
-        echo "updata:".$_POST['updata'];
-       $id = $_POST['updata'];
+        echo "id:".$_POST['id'];
+       $id = $_POST['id'];
        $customers = DB::select('select * from customers where $id ');
        return View::make('updata',['customers' => $customers]);
     } 
