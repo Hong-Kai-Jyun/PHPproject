@@ -8,8 +8,8 @@
 
         <div class="nav navbar-default col-sm-auto">
 
-          <li>
-          <button><a href="{{ action('CustomerController@index') }}" class="nav-link">新增客戶</a><button>
+          <li class="nav-item active">
+          <button><a href="{{ action('CustomerController@index') }}" class="nav-link">新增客戶</a></button>
           </li>
 
 
@@ -38,7 +38,7 @@
 
                 <td>
                  <!-- <form action="" method="post"> -->
-                 <input type="hidden" name="updata" value='<?php echo $customer->Cusid; ?>'>
+                 <input type="hidden" name="updata" value='<?php echo $customer->id; ?>'>
                  <button>修改</button>
                 </form>
                 </td>
