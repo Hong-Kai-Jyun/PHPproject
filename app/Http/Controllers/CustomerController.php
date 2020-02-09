@@ -33,6 +33,7 @@ class CustomerController extends Controller
         echo "id:".$_POST['id']."</br>";
         echo "name:".$_POST['cu_name']."</br>";
         echo "phone:".$_POST['phone']."</br>";
+        echo "Address:".$_POST['Address']."</br>";
         $post->id = $_POST['id'];
         $post->Name = $_POST['cu_name'];
         $post->Phone = $_POST['phone'];

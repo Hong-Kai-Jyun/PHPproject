@@ -13,6 +13,7 @@
                 <th>客戶VIP編號</th>
                 <th>客戶姓名</th>
                 <th>客戶電話</th>
+                <th>客戶地址</th>
               </tr>
             </thead>
 
@@ -26,6 +27,7 @@
                    <td><input type="text" name="id"  value="<?php echo $customer->id; ?>"></td>
                    <td><input type="text" name="cu_name"  value="<?php echo $customer->Name; ?>"></td>
                    <td><input type="text" name="phone"  value="<?php echo $customer->Phone; ?>"></td>
+                   <td><input type="text" name="Address"  value="<?php echo $customer->Address; ?>"></td>
                    <td><button  type="submit" name="send" value="送出表單">修改</button></td>
                 </form>
                 </tr>
