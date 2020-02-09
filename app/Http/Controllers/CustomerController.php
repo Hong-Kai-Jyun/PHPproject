@@ -32,6 +32,6 @@ class CustomerController extends Controller
         $post->Name = $_POST['name'];
         $post->Phone = $_POST['phone'];
         $post->save();
-
+        return view('board');
     }
 }
