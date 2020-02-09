@@ -27,7 +27,7 @@
               </tr>
             </thead>
 
-            <form action="{{ url(/login) }}" method="post">
+<!-- <form action="{{ url(/login) }}" method="post"> -->
                 <?php  {{ csrf_field() }}  
                 foreach ($customers as $customer){
                 ?>
