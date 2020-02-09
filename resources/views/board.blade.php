@@ -9,7 +9,7 @@
         <div class="nav navbar-default col-sm-auto">
 
           <li class="nav-item active">
-          <button><a href="{{ url('add_coustomers') }}" class="nav-link">新增客戶</a></button>
+          <button><a href="{{ url('add_coustomers') }}" class="nav-link">新增客戶</a></button><!--不能用action-->
           </li>
 
 

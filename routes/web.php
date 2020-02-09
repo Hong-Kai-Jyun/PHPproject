@@ -23,7 +23,7 @@ Route::resource('customer','CustomerController');
 
 Route::resource('cars','CarsController');
 Route::get('add_coustomers', function () {
-    return view('add_coustomers_index');
+    return view('addcoustomersindex');
 });
 //Route::post('add_coustomers','CustomerController@add_coustomers');
 Route::post('updata','CustomerController@query');
