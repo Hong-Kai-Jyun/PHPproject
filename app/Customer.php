@@ -16,4 +16,6 @@ class Customer extends Model
   
   //如果沒有設定 created_at 與 updated_at欄位，則可以設成 false
   public $timestamps = true;
+
+  $post = new App\Customer;
 }
