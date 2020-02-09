@@ -27,8 +27,8 @@
               </tr>
             </thead>
 
-<!-- <form action="" method="post"> -->
-                <?php  {{ csrf_field() }}  
+<!-- <form action="" method="post"> -->{{ csrf_field() }}  
+                <?php  
                 foreach ($customers as $customer){
                 ?>
                <tr>
