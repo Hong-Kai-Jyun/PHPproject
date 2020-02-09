@@ -17,6 +17,17 @@ class CustomerController extends Controller
        return View::make('board',['customers' => $customers]);
     }
 
+    public function add_coustomers(){
+        $post = Customer::find($_POST['id']);
+        $post->id =$_POST['id'];
+        $post->Name = $_POST['cu_name'];
+        $post->Phone = $_POST['phone'];
+        $post->Phone = $_POST['iAddressd'];
+        $post->save();
+
+    }
+
+
     //更新前取出特定資料的查詢
     public function query(){
     //   echo "id:".$_POST['id']."</br>";
