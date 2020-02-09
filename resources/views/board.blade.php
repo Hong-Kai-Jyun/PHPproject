@@ -36,13 +36,13 @@
                   <td><?php echo $customer->Name; ?></td>
                   <td><?php echo $customer->Phone; ?></td>
 
-                <li>
+                <td>
                  <button value='<?php echo $customer->Cusid; ?>'><a href="{{ action('CustomerController@index') }}">修改</a></button>
-                </li>
+                </td>
 
-                <li>
+                 <td>
                  <a href="{{ action('CustomerController@index') }}" class="nav-link">刪除</a>
-                </li>
+                </td>
 
                </tr>
               <?php }  ?>
