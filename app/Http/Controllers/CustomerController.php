@@ -19,7 +19,7 @@ class CustomerController extends Controller
         echo "id:".$_POST['id']."</br>";
        $id = $_POST['id'];
        $customers = DB::select("select * from customers where '{$id}' ");
-       echo $customers; 
+       echo "select * from customers where '{$id}' "; 
        return View::make('updata',['customers' => $customers]);
     } 
 }
