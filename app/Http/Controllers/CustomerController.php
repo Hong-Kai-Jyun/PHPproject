@@ -32,7 +32,12 @@ class CustomerController extends Controller
         $post->save();
         return view('board');*/
     }
-
+    public function index2(){
+        echo "id:".$_POST['id']."</br>";
+        echo "cu_name:".$_POST['cu_name']."</br>";
+        echo "phone:".$_POST['phone']."</br>";
+        echo "Addressd:".$_POST['Addressd']."</br>";
+     }
 
     //更新前取出特定資料的查詢
     public function query(){

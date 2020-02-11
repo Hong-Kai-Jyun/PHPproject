@@ -25,7 +25,7 @@ Route::resource('cars','CarsController');
 Route::get('add_coustomers_index', function () {
     return view('addcustomersindex');
 });
-Route::post('add_coustomers','CustomerController@addcoustomers');
+Route::post('add_coustomers','CustomerController@index2');
 Route::post('updata','CustomerController@query');
 Route::post('updata_2','CustomerController@updata');
 
