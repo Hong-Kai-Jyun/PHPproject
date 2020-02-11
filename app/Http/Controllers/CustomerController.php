@@ -18,7 +18,7 @@ class CustomerController extends Controller
     }
 
     public function addcoustomers(){
-
+        $post = new \App\Customer;
         echo "id:".$_POST['id']."</br>";
         echo "cu_name:".$_POST['cu_name']."</br>";
         echo "phone:".$_POST['phone']."</br>";
