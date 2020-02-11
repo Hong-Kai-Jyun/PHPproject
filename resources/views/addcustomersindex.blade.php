@@ -19,7 +19,7 @@
 
               <form action = 'add_cusotmers' method="POST">
                 {{ csrf_field() }}
-               <!-- {{ method_field('POST') }}-->
+               {{ method_field('POST') }}
                 <tr>
                    <td><input type="text" name="id"  value=""></td>
                    <td><input type="text" name="cu_name"  value=""></td>
