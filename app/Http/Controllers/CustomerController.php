@@ -29,8 +29,8 @@ class CustomerController extends Controller
         $post->Name = $_POST['cu_name'];
         $post->Phone = $_POST['phone'];
         $post->Phone = $_POST['Addressd'];
-        $post->save();*/
-        return view('board');
+        $post->save();
+        return view('board');*/
     }
 
 
