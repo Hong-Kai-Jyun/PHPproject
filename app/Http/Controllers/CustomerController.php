@@ -24,13 +24,13 @@ class CustomerController extends Controller
         echo "phone:".$_POST['phone']."</br>";
         echo "Addressd:".$_POST['Address']."</br>";
         //$post = Customer::find($_POST['id']);
-        /*$post = new \App\Customer;
+        $post = new \App\Customer;
         $post->id =$_POST['id'];
         $post->Name = $_POST['cu_name'];
         $post->Phone = $_POST['phone'];
         $post->Phone = $_POST['Addressd'];
         $post->save();
-        return view('board');*/
+        return view('board');
     }
 
 
