@@ -30,3 +30,7 @@ Route::post('updata','CustomerController@query');
 Route::post('updata_2','CustomerController@updata');
 
 Route::resource('mysystem_index','mySystemController');
+
+Auth::routes();
+
+Route::get('/home', 'HomeController@index')->name('home');
