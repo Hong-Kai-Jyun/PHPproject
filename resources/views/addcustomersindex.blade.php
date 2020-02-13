@@ -17,7 +17,7 @@
               </tr>
             </thead>
 
-              <form action = 'add_cusotmers' method="POST">
+              <form action = 'add_coustomers' method="POST">
                 {{ csrf_field() }}
                {{ method_field('POST') }}
                 <tr>
