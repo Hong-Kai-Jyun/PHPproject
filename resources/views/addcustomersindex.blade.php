@@ -24,7 +24,7 @@
                    <td><input type="text" name="id"  value=""></td>
                    <td><input type="text" name="cu_name"  value=""></td>
                    <td><input type="text" name="phone"  value=""></td>
-                   <td><input type="text" name="Address"  value=""></td>
+                   <td><input type="text" name="Addressd"  value=""></td>
                    <td><button  type="submit" name="send" value="送出表單">新增</button></td>
                 </form>
                 </tr>
