@@ -19,13 +19,13 @@ class CustomerController extends Controller
 
     public function addcoustomers(){
         
-        echo "id:".$_POST['id']."</br>";
+        echo "Cusid:".$_POST['id']."</br>";
         echo "cu_name:".$_POST['cu_name']."</br>";
         echo "phone:".$_POST['phone']."</br>";
         echo "Address:".$_POST['Address']."</br>";
         //$post = Customer::find($_POST['id']);
         $post = new \App\Customer;
-        //$post->id =$_POST['id'];
+        $post->Cusid =$_POST['id'];
         $post->Name = $_POST['cu_name'];
         $post->Phone = $_POST['phone'];
         $post->Address = $_POST['Address'];
