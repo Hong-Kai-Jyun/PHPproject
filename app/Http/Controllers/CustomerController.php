@@ -30,7 +30,7 @@ class CustomerController extends Controller
         $post->Phone = $_POST['phone'];
         $post->Address = $_POST['Address'];
         $post->save();
-        return view('board');
+        return index();
     }
 
 
